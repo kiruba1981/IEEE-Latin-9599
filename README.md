@@ -11,3 +11,22 @@ The HIL simulation and experimentation parameters are as follows: an input volta
 The figures illustrate the generation of sine and triangular waves using Xilinx blocks, the PWM generation for the switches, and the implementation of a Proportional Resonant (PR) controller and a Phase-Locked Loop (PLL), all of which are employed in the simulation file of the proposed topology.
 
 # **Results**
+
+Fig. 8:
+Presents the experimental results of the inverter output voltage and the load current corresponding to an input DC voltage of 400 V. This figure verifies the proper functioning of the inverter under rated input conditions and demonstrates the output voltage waveform quality and current response under load.
+
+Fig. 9:
+Shows the measured input voltage along with the voltages across the three capacitors (VC1, VC2, and VC3). These measurements are essential for validating the balancing performance of the capacitor voltages, which is crucial for stable inverter operation.
+
+Fig. 12:
+This figure illustrates the measured waveforms of the inverter output voltage, grid voltage, and the injected grid current. It is used to analyze the synchronization between the inverter and the grid, confirming that the injected current is sinusoidal and in phase with the grid voltage, which indicates proper grid integration and effective control strategy implementation.
+
+Fig. 13:
+Depicts two key waveforms:
+(a) The inverter output voltage waveform, which is analyzed to check its sinusoidal shape and quality.
+(b) The percentage Total Harmonic Distortion of the inverter voltage, which is important for evaluating the harmonic performance and compliance with power quality standards.
+
+Fig. 14:
+Displays the following measurements:
+(a) The injected grid current waveform, which demonstrates the quality and nature of current being supplied back to the grid.
+(b) The percentage Total Harmonic Distortion of the current , used to evaluate the effectiveness of current control strategies and confirm adherence to grid code requirements regarding harmonic injection.

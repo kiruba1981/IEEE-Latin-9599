@@ -8,9 +8,6 @@ This paper presents a Field Programmable Gate Array (FPGA) implementation for ra
 The HIL simulation and experimentation parameters are as follows: an input voltage (Vdc) of 400 V, an output voltage (Vac) of 230 V(RMS), and a switching frequency (fsw) of 5 kHz. The system utilizes IGBT CT60 power switches, a filter inductor of 6 mH, and DC capacitors rated at 1000 μF, 500 V. The load power for the setup is 2 kW.
 
 # **Figures from the paper**
-
-
-
-
+The figures illustrate the generation of sine and triangular waves using Xilinx blocks, the PWM generation for the switches, and the implementation of a Proportional Resonant (PR) controller and a Phase-Locked Loop (PLL), all of which are employed in the simulation file of the proposed topology.
 
 # **Results**

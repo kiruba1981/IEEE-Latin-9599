@@ -31,5 +31,5 @@ Displays the following measurements:
 (a) The injected grid current waveform, which demonstrates the quality and nature of current being supplied back to the grid.
 (b) The percentage Total Harmonic Distortion of the current , used to evaluate the effectiveness of current control strategies.
 
-SOftware Requirement:
+# **Software Requirement**
 The Simulink file can be opened using MATLAB 2024a. However, Simulink files that use Xilinx blocks require MATLAB 2013a with Xilinx System Generator version 14.1 or later installed.

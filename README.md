@@ -32,4 +32,4 @@ Displays the following measurements:
 (b) The percentage Total Harmonic Distortion of the current , used to evaluate the effectiveness of current control strategies.
 
 # **Software Requirement**
-The Simulink file can be opened using MATLAB 2024a. However, Simulink files that use Xilinx blocks require MATLAB 2013a with Xilinx System Generator version 14.1 or later installed.
+The Simulink file (CG_5L_inverter_simulinkblocks) can be opened using MATLAB 2024a. However, Simulink files that use Xilinx blocks (CG_5L_inverter_XilinxBlocks) require MATLAB 2013a with Xilinx System Generator version 14.1 or later installed.

@@ -8,26 +8,7 @@ This paper presents a Field Programmable Gate Array (FPGA) implementation for ra
 The HIL simulation and experimentation parameters are as follows: an input voltage (Vdc) of 400 V, an output voltage (Vac) of 230 V(RMS), and a switching frequency (fsw) of 5 kHz. The system utilizes IGBT CT60 power switches, a filter inductor of 6 mH, and DC capacitors rated at 1000 μF, 500 V. The load power for the setup is 2 kW.
 
 # **Figures from the paper**
-The following figures can be generated using mfile_plot.m and measurement blocks for various signals, while the frequency spectrum can be obtained using the Power GUI block.
-
-Fig. 8:
-Presents the experimental results of the inverter output voltage and the load current corresponding to an input DC voltage of 400 V. This figure verifies the proper functioning of the inverter under rated input conditions.
-
-Fig. 9:
-Shows the measured input voltage along with the voltages across the three capacitors (VC1, VC2, and VC3). These measurements are essential for validating the balancing performance of the capacitor voltages, which is crucial for stable inverter operation.
-
-Fig. 12:
-This figure illustrates the measured waveforms of the inverter output voltage, grid voltage, and the injected grid current. It is used to analyze the synchronization between the inverter and the grid, confirming that the injected current is sinusoidal and in phase with the grid voltage, which indicates proper grid integration and effective control strategy implementation.
-
-Fig. 13:
-Depicts two key waveforms:
-(a) The inverter output voltage waveform.
-(b) The percentage Total Harmonic Distortion of the inverter voltage, which is important for evaluating the harmonic performance.
-
-Fig. 14:
-Displays the following measurements:
-(a) The injected grid current waveform, which demonstrates the quality and nature of current being supplied back to the grid.
-(b) The percentage Total Harmonic Distortion of the current , used to evaluate the effectiveness of current control strategies.
+The HIL figures 13, 14 & 15 can be generated using mfile_plot.m and measurement blocks for various signals, while the frequency spectrum can be obtained using the powergui block in MATLAB software.
 
 # **Software Requirement**
 The Simulink file (CG_5L_inverter_simulinkblocks) can be opened using MATLAB 2017b or later versions. However, Simulink files that use Xilinx blocks (CG_Xilinxmodel) require MATLAB 2013a with Xilinx System Generator version 14.1 or later installed.
